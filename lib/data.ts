@@ -1,10 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { LuGraduationCap, LuSchool, LuSchool2 } from "react-icons/lu";
+import redditProject from "@/public/redditProject.png";
+import meeshoProject from "@/public/meeshoProject.png";
+import iNotebookProject from "@/public/iNotebookProject.png";
 
 export const links = [
   {
@@ -24,8 +22,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Education",
+    hash: "#education",
   },
   {
     name: "Contact",
@@ -33,58 +31,58 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+export const educationalData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Padmabhooshan Vasantraodada Patil Institute Of Technology",
+    location: "Sangli,Maharashtra",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Bachelor of Technology, Electronics and Telecommunication Engineering",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2017-2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    title: "Sangli Highschool and Junior College , Sangli",
+    location: "Sangli,Maharashtra",
+    description: "Intermediate (Class XII), Science",
+    icon: React.createElement(LuSchool2),
+    date: "2016 - 2017",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    title: "Sangli Highschool, Sangli.",
+    location: "Sangli,Maharashtra",
+    description: "Matriculation (Class X), Science",
+    icon: React.createElement(LuSchool),
+    date: "2014-2015",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Reddit clone website",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This is basically a social media app where users can post after logging in and can upvote and downvote with their specific counts.",
+    tags: ["React", "JavaScript", "Bootstrap"],
+    imageUrl: redditProject,
   },
   {
-    title: "rmtDev",
+    title: "Meesho E-commerse clone website",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "The Project is clone of Meesho Ecommerce platform.Where you can filter products in categories.",
+    tags: ["React", "JavaScript", "Bootstrap"],
+    imageUrl: meeshoProject,
   },
   {
-    title: "Word Analytics",
+    title: "iNoteBook web application",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A web app for storing note for particular user.Only authorised person can see there note , not any other user.",
+    tags: ["React", "JavaScript", "Bootstrap", "MongoDB", "Node.js"],
+    imageUrl: iNotebookProject,
   },
 ] as const;
 
 export const skillsData = [
+  "Java",
+  "Amazon Web Service",
   "HTML",
   "CSS",
   "JavaScript",
@@ -94,14 +92,8 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Bootstrap",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
