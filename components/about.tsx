@@ -25,10 +25,8 @@ export default function About() {
         bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem.Though I am most
-        proficient in building front-end applications using HTML, CSS,
-        Javascript, and React. My core stack is{" "}
+        problem-solving aspect. I am most proficient in building front-end
+        applications using HTML, CSS, Javascript, and React. My core stack is{" "}
         <span className="font-medium">
           React, JavaScript, Node.js, and MongoDB
         </span>
